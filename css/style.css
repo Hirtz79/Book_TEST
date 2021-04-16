@@ -37,9 +37,6 @@ header .logo{
     position: relative;
     display: inline-block;
     text-decoration: none;
-    font-size : 2rem;
-    font-weight: 900;
-    color : #340860;
     width: 7%;
 }
 header .logo .img_logo{
@@ -141,6 +138,7 @@ header a span{
     justify-content: center;
     text-align: center;
     font-size:2rem;
+
 }
 
 .sci li{
@@ -150,7 +148,6 @@ header a span{
     color : white;
     margin-left: 15px;
     transition : 0.5s;
-
 }
 
 .hoverfb:hover{

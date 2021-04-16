@@ -15,19 +15,33 @@
         width: 5rem;
 
     }
+    section{
+        min-height: 70vh;
+    }
 
     .content{
-        margin-left: 15rem;
+        margin : 0;
+        width: 100%;
+        justify-content: center;
+
     }
     .content .txt a{
         font-size:30px;
         padding : 30px;
     }
     .thomas{
-        left : 0;
-        width: 70%;
+        position: absolute;
+        width:80%;
+        left : 100px;
+        top :800px;
+
     }
 
-    .foo
+    .foot{
+        bottom : 0;
+    }
+    .foot p{
+        font-size: 20px;
+    }
 
 }

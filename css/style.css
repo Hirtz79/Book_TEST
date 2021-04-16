@@ -1,5 +1,5 @@
 html{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     box-sizing: border-box;
     margin : 0;
@@ -32,6 +32,7 @@ header{
     align-items: center;
     z-index: 10;
 }
+
 header .logo{
     position: relative;
     display: inline-block;
@@ -39,8 +40,11 @@ header .logo{
     font-size : 2rem;
     font-weight: 900;
     color : #340860;
+    width: 7%;
 }
-
+header .logo .img_logo{
+    width: 15%;
+}
 header ul{
     position: relative;
     display: flex;
@@ -163,8 +167,11 @@ header a span{
 
 /* IMAGE */
 .thomas{
-    position : absolute;
-    left : 950px;
+    position :absolute;
+    left : 1000px;
+    width :38%;
+    max-height: 100%;
+
 }
 /*********************************/
 
@@ -173,19 +180,61 @@ header a span{
 .foot{
     background-color : #1E0339;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     position: absolute;
     width: 100%;
-    bottom :0;
     z-index: 1000;
 
 }
 .foot p{
-    margin-top : 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top : 1.5rem;
     color : white;
 }
 
 
 /*********************************/
+
+
+.graph{
+    position : relative;
+    max-width :100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left : 6rem;
+    margin-top: 16rem;
+
+
+}
+.graph2{
+    position : relative;
+    max-width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left : 6rem;
+    margin-top: 2rem;
+
+}
+.fig{
+    position : absolute;
+    width : 10%;
+    left : 1000px;
+}
+.graph p {
+    width : 50%;
+}
+.for_width{
+    max-width: 99%;
+    margin-top : 3rem;
+}
+
+.Espacement2{
+    margin-top: 2rem;
+}
+
+
+

@@ -90,9 +90,16 @@ header ul li a:hover{
     line-height : 1.2em;
     font-weight : 700;
 }
-.content .txt p{
+
+.content .txt h2{
     color : black;
     font-size: 2rem;
+    line-height : 1.2em;
+    font-weight : 700;
+}
+.content .txt p{
+    color : black;
+    font-size: 1.5rem;
     line-height : 1.2em;
     font-weight : 700;
 }
@@ -108,6 +115,7 @@ header ul li a:hover{
 .content .txt a:hover{
     background : #161616;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 /*********************************/
 
@@ -118,7 +126,6 @@ header ul li a:hover{
 .sci{
     display: flex;
     justify-content: center;
-    text-align: center;
     font-size:2rem;
 }
 
@@ -147,17 +154,20 @@ header ul li a:hover{
 .thomas{
     position : absolute;
     left : 900px;
-    width : 35%;
+    width : 36.95%;
 }
 /*********************************/
 
 
 /***** FOOTER *****/
 .foot{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color : #161616;
-    position: absolute;
     width: 100%;
     bottom :0;
+
 }
 .foot p{
     margin-top : 1rem;

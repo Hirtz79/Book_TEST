@@ -38,7 +38,7 @@ header .logo{
     text-decoration: none;
     font-size : 2rem;
     font-weight: 900;
-    color : #ff5e8e;
+    color : #340860;
 }
 
 header ul{
@@ -64,12 +64,18 @@ header ul li a{
 header ul li a.active2{
     color : white;
     border-radius: 30px;
-    background : #ff5e8e;
+    background : #340860;
 }
 
 header ul li a:hover{
     text-decoration: none;
     transform:scale(1.1);
+    color : #FAE8AA;
+}
+
+header a span{
+    color : #3BAA15;
+
 }
 /*********************************/
 
@@ -79,13 +85,14 @@ header ul li a:hover{
 .content{
     position : relative;
     display: flex;
+    margin-left: 15rem;
 }
 .content .txt{
     max-width: 550px;
 }
 
 .content .txt h1{
-    color : #ff5e8e;
+    color : #340860;
     font-size: 4rem;
     line-height : 1.2em;
     font-weight : 700;
@@ -104,7 +111,7 @@ header ul li a:hover{
     font-weight : 700;
 }
 .content .txt a{
-    background : #ff5e8e;
+    background : #340860;
     color :white;
     display: inline-block;
     padding : 15px ;
@@ -113,9 +120,11 @@ header ul li a:hover{
     transition : 0.5s;
 }
 .content .txt a:hover{
-    background : #161616;
+    background : #FAE8AA;
     text-decoration: none;
     letter-spacing: 2px;
+    color : black;
+
 }
 /*********************************/
 
@@ -126,6 +135,7 @@ header ul li a:hover{
 .sci{
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size:2rem;
 }
 
@@ -133,19 +143,20 @@ header ul li a:hover{
     list-style: none;
 }
 .sci li i{
-    color : grey;
+    color : white;
     margin-left: 15px;
     transition : 0.5s;
+
 }
 
 .hoverfb:hover{
-    color : blue;
+    color : #1743B5;
 }
 .hovergit:hover{
     color : black;
 }
 .hoverinsta:hover{
-    color : pink;
+    color : #BC4A09;
 }
 /*********************************/
 
@@ -153,28 +164,28 @@ header ul li a:hover{
 /* IMAGE */
 .thomas{
     position : absolute;
-    left : 900px;
-    width : 36.95%;
+    left : 950px;
 }
 /*********************************/
 
 
 /***** FOOTER *****/
 .foot{
+    background-color : #1E0339;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color : #161616;
+    position: absolute;
     width: 100%;
     bottom :0;
+    z-index: 1000;
 
 }
 .foot p{
     margin-top : 1rem;
     text-align: center;
+    color : white;
 }
-.coeur{
-    color : darkred;
-}
+
 
 /*********************************/
